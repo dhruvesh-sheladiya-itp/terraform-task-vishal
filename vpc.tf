@@ -1,7 +1,7 @@
 module "vpc" {
   source = "terraform-aws-modules/vpc/aws"
 
-  name = "vpc-jay"
+  name = "vpc-dhruvesh"
   cidr = "15.0.0.0/16"
   
   azs             = ["us-east-1a", "us-east-1b", "us-east-1c"]
@@ -13,7 +13,7 @@ module "vpc" {
   
 
   tags = {
-    Name = "jay sheth"
+    Name = "dhruvesh sheladiya"
     Environment = "testing"
   }
 }
